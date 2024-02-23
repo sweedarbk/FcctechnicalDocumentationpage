@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HTML Technical Documentation Page</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <!--Navigation Bar Section-->
+    <nav id="navbar">
+        <header>HTML Technical Documentation</header>
+        <ul>
+            <li><a class="nav-link" href="#All_About_HTML">All About HTML</a></li>
+            <li><a class="nav-link" href="#Creating_an_HTML_Document">Creating an HTML Document</a></li>
+            <li><a class="nav-link" href="#HTML_Elements">HTML Elements</a></li>
+            <li><a class="nav-link" href="#Links_in_HTML">Links in HTML</a></li>
+            <li><a class="nav-link" href="#HTML_Comments">HTML Comments</a></li>
+            <li><a class="nav-link" href="#HTML_Divs">HTML Divs</a></li>
+            <li><a class="nav-link" href="#HTML_Id">HTML Id</a></li>
+            <li><a class="nav-link" href="#HTML_Classes">HTML Classes</a></li>
+        </ul>
+    </nav>
+    <!--Main Content-->
+    <main id="main-doc">
+        <section class="main-section" id="All_About_HTML">
+            <header>All About HTML</header>
+            <p>HTML stands for Hyper Text Markup Language, and is the standard markup language for creating web pages.
+            <ul>
+                <li>HTML describes the structure of a Web page</li>
+                <li>HTML consists of a series of elements</li>
+                <li>HTML elements tell the browser how to display the content</li>
+                <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a
+                    link", etc.</li>
+            </ul>
+            </p>
+        </section>
+        <section class="main-section" id="Creating_an_HTML_Document">
+            <header>Creating an HTML Document</header>
+            <p>All HTML documents require a document type declaration. The HTML document itself begins with an HTML tag,
+                and the visible part of the HTML document is between an opening and closing body tag.</p>
+            <p>Example:
+                <code>
+        <br>
+        < !DOCTYPE html >
+        <br>
+< html >
+<br>
+< body >
+<br>
+< h1 >My First Heading< /h1 >
+<br>
+< p >My first paragraph.< /p >
+<br>
+< /body >
+<br>
+< /html >
+</code>
+            </p>
+        </section>
+        <section class="main-section" id="HTML_Elements">
+            <header>HTML Elements</header>
+            <p>An HTML element is defined by a start tag, some content, and an end tag.</p>
+            <p>Examples include:
+            <ul>
+                <li><code>< h1 > My First Heading < /h1 ></code></li>
+                <li><code>< p > My first paragraph. < /p ></code></li>
+                <li><code>< p > More paragraph content. < /p ></code></li>
+            </ul>
+            </p>
+        </section>
+        <section class="main-section" id="Links_in_HTML">
+            <header>Links in HTML</header>
+            <p>HTML links are hyperlinks. You can click on a link and jump to another document or to another location
+                within a document. The HTML < a> tag defines a hyperlink.</p>
+            <p>Examples include:
+            <ul>
+                <li><code>< a href="google.com" > Google < /a ></code></li>
+                <li><code>< a href="#contact" > Contact Us Here! < /a ></code></li>
+            </ul>
+            </p>
+        </section>
+        <section class="main-section" id="HTML_Comments">
+            <header>HTML Comments</header>
+            <p>HTML comments are not displayed in the browser, but they can help document your HTML source code. This
+                can be helpful when organizing your own code and can improve its readability for other developers.</p>
+            <p>Example:
+                <br>
+                < ! -- This is a comment -->
+            </p>
+        </section>
+        <section class="main-section" id="HTML_Divs">
+            <header>HTML Divs</header>
+            <p>The div element is used as a container for other HTML elements. This can be helpful in grouping elements
+                together and can increase your code readability. It is also a default block element, and takes up all
+                available width.</p>
+            <p>Example:
+                <br>
+                < div>
+                    <br>
+                    < h2>London< /h2>
+                            <br>
+                            < p>London is the capital city of England.< /p>
+                                    <br>
+                                    < p>London has over 13 million inhabitants.< /p>
+                                            <br>
+                                            < /div>
+            </p>
+        </section>
+        <section class="main-section" id="HTML_Id">
+            <header>HTML Id</header>
+            <p>The HTML id attribute is used to specify a unique id for an HTML element. You cannot have more than one
+                element with the same id in an HTML document. The id attribute is used to point to a specific style
+                declaration in a style sheet. It is also used by JavaScript to access and manipulate the element with
+                the specific id.
+                <br>The id name must contain at least one character, cannot start with a number, and must not contain
+                whitespaces (spaces, tabs, etc.).
+            </p>
+            <p>Examples include:
+            <ul>
+                <li><code>< h1 id="myHeader" >My Header< /h1 ></code></li>
+                <li><code>< h2 id="city" >London< /h2 ></code></li>
+            </ul>
+            </p>
+        </section>
+        <section class="main-section" id="HTML_Classes">
+            <header>HTML Classes</header>
+            <p>The HTML class attribute is used to specify a class for an HTML element. Multiple HTML elements can share
+                the same class. The class attribute is often used to point to a class name in a style sheet. It can also
+                be used by a JavaScript to access and manipulate elements with the specific class name.</p>
+            <p>Examples include:
+            <ul>
+                <li><code>< div class="list"> < /div ></code></li>
+                <li><code>< h3 class="about-header" >About Page< /h3 ></code></li>
+            </ul>
+
+            </p>
+        </section>
+    </main>
+</body>
+
+</html>
